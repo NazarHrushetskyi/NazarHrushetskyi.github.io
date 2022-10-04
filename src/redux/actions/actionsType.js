@@ -1,0 +1,16 @@
+export const DATA_CONVERT = 'DataConvert';
+export const CONVERT_AMOUNT = 'ConvertAmount';
+export const CONVERT_FROM = 'ConvertFrom';
+export const CONVERT_TO = 'ConvertTo';
+export const CONVERT_SWAP = 'ConvertSwap';
+export const HISTORICAL_DATA = 'HistoricalData';
+export const HISTORICAL_DATE = 'HistoricalDate';
+export const HISTORICAL_CURR = 'HistoricalCurr';
+export const COMPARISON_DATA = 'ComparisonData';
+export const COMPARISON_DATE = 'ComparisonDate';
+export const COMPARISON_FROM = 'ComparisonFrom';
+export const COMPARISON_TO = 'ComparisonTo';
+export const CHARTS_DATA = 'ChartsData';
+export const CHARTS_DATE = 'ChartsDate';
+export const CHARTS_FROM = 'ChartsFrom';
+export const CHARTS_TO = 'ChartsTo';

@@ -1,0 +1,16 @@
+
+.content {
+    padding: 0px 25px 10px 0px;
+    margin-left: 5%;
+    height: 350px;
+    overflow-y: scroll;
+}
+.list{
+    list-style-type: none;
+    font-family: Roboto;
+    font-size: 26px;
+    padding: 10px 0px;
+}
+.time, .from, .to {
+    font-weight: 600;
+}
