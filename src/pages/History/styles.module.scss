@@ -2,7 +2,7 @@
 .content {
     padding: 0px 25px 10px 0px;
     margin-left: 5%;
-    height: 350px;
+    height: 300px;
     overflow-y: scroll;
 }
 .list{
@@ -13,4 +13,17 @@
 }
 .time, .from, .to {
     font-weight: 600;
+}
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+.empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 50px;
 }

@@ -13,7 +13,7 @@ import History from '../pages/History/History'
 
 export const routes = [
   {
-    path: 'convert',
+    path: '/',
     name: 'Convert',
     component: <Convert />,
     icon: <ConvSvg />,

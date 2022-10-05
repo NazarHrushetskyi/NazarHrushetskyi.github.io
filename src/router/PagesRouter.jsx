@@ -6,8 +6,8 @@ function PagesRouter() {
   return (
     <div>
       <Routes>
-        {routes.map((item) => (
-          <Route path={item.path} element={item.component} key={item.path} />
+        {routes.map((item, index) => (
+          <Route path={item.path} key={index} element={item.component} />
         ))}
       </Routes>
     </div>
