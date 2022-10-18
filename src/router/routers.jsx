@@ -4,12 +4,13 @@ import { ReactComponent as ConvSvg } from '../assets/img/convert.svg';
 import { ReactComponent as HistorSvg } from '../assets/img/historical.svg';
 import { ReactComponent as HistSvg } from '../assets/img/history.svg';
 
+import { Navigate } from 'react-router-dom';
 
-import Charts from '../pages/Charts/Charts'
-import Comparison from '../pages/Comparison/Comparison'
-import Convert from '../pages/Convert/Convert'
-import Historical from '../pages/Historical/Historical'
-import History from '../pages/History/History'
+import Charts from '../pages/Charts/Charts';
+import Comparison from '../pages/Comparison/Comparison';
+import Convert from '../pages/Convert/Convert';
+import Historical from '../pages/Historical/Historical';
+import History from '../pages/History/History';
 
 export const routes = [
   {
@@ -42,8 +43,8 @@ export const routes = [
     component: <History />,
     icon: <HistSvg />,
   },
-
+  {
+    path: '*',
+    component: <Navigate to={"/"} />,
+  },
 ];
-
-
-  
